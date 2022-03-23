@@ -1,0 +1,10 @@
+const app = new Vue({
+    el: '#app',
+    data: {
+        name: "Jobegiar",
+        hobbies:["compose music","play the piano","sing",
+                            "develop projects related to game AI","exercise","read"],
+        show: true,
+        message: "Welcome to my super page"
+    }
+  });
